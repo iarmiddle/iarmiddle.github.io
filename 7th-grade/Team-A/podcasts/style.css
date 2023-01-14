@@ -1,0 +1,93 @@
+html,
+body {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.navbar {
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    display: none;
+}
+
+#centerDiv {
+    width: 75%;
+    margin: auto;
+    border: 1px solid #ddd;
+    background-color: rgb(250, 250, 250);
+}
+
+.podcastDiv {
+    width: 100%;
+}
+
+.podcastDiv .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 80%;
+    padding: 15px 10%;
+    background-color: #eee;
+    text-align: left;
+}
+
+.podcastDiv .header .podcastName {
+    padding: 0 10px;
+    margin: 0;
+    font-size: 30px;
+}
+
+.podcastDiv .header .podcastAuthors {
+    padding: 0 5px;
+    margin: 0;
+    margin-bottom: 5px;
+    color: dimgray;
+    font-size: 15px;
+}
+
+.podcastDiv .podcastImageHolder {
+    border: 1px solid #ddd;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+.podcastDiv .podcastImage {
+    padding-top: 10px;
+}
+
+.podcastDiv .podcastTranscript {
+    text-align: left;
+    width: 80%;
+    padding: 10px 10%;
+}
+
+.podcastDiv .podcastNotes {
+    width: 80%;
+    margin: auto;
+    padding: 10px 10%;
+    text-align: left;
+
+}
+
+.podcastDiv .podcastNotes h4 {
+    font-size: 18px;
+}
+
+.podcastDiv .podcastNotes dt {
+    font-weight: bold;
+}
+
+.podcastSources {
+    max-width: 75%;
+    margin: auto;
+}
