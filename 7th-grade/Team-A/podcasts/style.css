@@ -3,6 +3,7 @@ body {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
+    background: linear-gradient(135deg, rgb(199, 245, 184), rgb(230, 226, 170));
 }
 
 h4 {
@@ -19,7 +20,7 @@ h4 {
 }
 
 #centerDiv {
-    width: 75%;
+    width: 80%;
     margin: auto;
     border: 1px solid #ddd;
     background-color: rgb(250, 250, 250);
@@ -37,6 +38,16 @@ h4 {
     padding: 15px 10%;
     background-color: #eee;
     text-align: left;
+}
+
+.playBtnTriangle {
+    fill: darkolivegreen;
+    stroke: darkolivegreen;
+    stroke-width: 50;
+}
+
+.podcastDiv .header .podcastPlayBtn {
+    padding-right: 10px;
 }
 
 .podcastDiv .header .podcastName {
@@ -76,7 +87,6 @@ h4 {
     margin: auto;
     padding: 10px 10%;
     text-align: left;
-
 }
 
 .podcastDiv .podcastNotes h4 {
