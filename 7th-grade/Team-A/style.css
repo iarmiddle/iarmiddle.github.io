@@ -1,0 +1,41 @@
+html,
+body {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+}
+
+.pageHeader {
+    width: 60vw;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.pageHeader h1 {
+    padding: 0;
+    margin: 8px;
+}
+
+.pageHeader .mainHeader {
+    background-color: royalblue;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 15px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.pageHeader #headerInfoContainer {
+    text-align: left;
+    width: calc(100% - 46px);
+    padding: 23px;
+    font-size: 14px;
+    display: none;
+}
+
+#headerInfo {
+    cursor: pointer;
+}
