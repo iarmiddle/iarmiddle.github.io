@@ -38,8 +38,6 @@ function wrap() {
 
         // e.style.whiteSpace = "initial"
         e.innerHTML = genText;
-
-        console.log(e.offsetWidth, originWidth, genText)
     }
 }
 
