@@ -33,17 +33,25 @@ h4 {
 .podcastDiv .header {
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
     width: 80%;
     padding: 15px 10%;
     background-color: #eee;
     text-align: left;
 }
 
+.podcastDiv .header #titleContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 .playBtnTriangle {
     fill: darkolivegreen;
     stroke: darkolivegreen;
     stroke-width: 50;
+    min-width: 50px;
+    min-height: 50px;
 }
 
 .podcastDiv .header .podcastPlayBtn {
@@ -57,7 +65,7 @@ h4 {
 }
 
 .podcastDiv .header .podcastAuthors {
-    padding: 0 5px;
+    padding: 0;
     margin: 0;
     margin-bottom: 5px;
     color: dimgray;
@@ -68,12 +76,15 @@ h4 {
     border: 1px solid #ddd;
     max-width: 80%;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 15px;
     background-color: #fff;
+    max-width: fit-content;
 }
 
 .podcastDiv .podcastImage {
-    padding-top: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    max-width: 50vw;
 }
 
 .podcastDiv .podcastTranscript {
